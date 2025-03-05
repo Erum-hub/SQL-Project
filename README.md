@@ -1,11 +1,12 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+The goal of this project is to clean and transform raw eCommerce data to demonstrate effective data processing techniques and methodologies.
 
 ## Process
-### (your step 1)
-### (your step 2)
+### The first step was to upload data on pg admin
+### Step 2: Reviewed the data and it organization
+### 
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
