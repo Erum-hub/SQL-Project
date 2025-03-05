@@ -4,7 +4,7 @@
 The goal of this project is to clean and transform raw eCommerce data to demonstrate effective data processing techniques and methodologies.
 
 ## Process
-### The first step was to upload data on pg admin
+### Step 1:
 ### Step 2: Reviewed the data and it organization
 ### 
 

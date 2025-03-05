@@ -5,11 +5,26 @@ Answer the following questions and provide the SQL queries used to find the answ
 
 
 SQL Queries:
-
-
-
+```
+SELECT 
+    city, 
+    country, 
+    CAST(SUM(COALESCE(CAST(totaltransactionrevenue AS BIGINT),0))AS BIGINT) AStotal_revenue
+FROM 
+    all_sessions
+GROUP BY 
+    city, 
+    country
+HAVING 
+    CAST(SUM(COALESCE(CAST(totaltransactionrevenue AS BIGINT),0))AS BIGINT) > 0
+ORDER BY 
+    total_revenue DESC;
+```
 
 Answer:
+![ans_Q1](/Users/erum/Documents/SQL_PICTURES/Ans_1.png)
+
+
 
 
 
